@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Popup</title>
+</head>
+<body>
+    <div class="wrapper"> 
+        <a href="#" class="popup-open">Открыть попап</a>
+        <a href="#" class="popup-open">Открыть попап</a>
+        <a href="#" class="popup-open">Открыть попап</a>
+    </div>  
+
+    <div class="popup__bg">
+        <form class="popup">
+            <img src="./image/cross-1.1s-60px.png" alt="" class="close-popup">
+            <label>
+                <input type="text" name="name">
+                <div class="label__text">
+                    Ваше имя
+                </div>
+            </label>
+            <label>
+                <input type="tel" name="tel">
+                <div class="label__text">
+                    Ваш телефон
+                </div>
+            </label>
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+                    Ваше сообщение
+                </div>
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
